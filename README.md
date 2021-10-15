@@ -12,7 +12,7 @@
 ## 模型成效
 - 氣胸分類模型
 - 胸管分類模型(測試資料集:288張胸腔x光影像)
-  - 混淆矩陣(confusion matrix
+  - 混淆矩陣(confusion matrix)<br>
   <img width="388" alt="tube_confusion" src="https://user-images.githubusercontent.com/44295049/137432791-d4fb767e-42cb-4ee9-a46f-344cf6b1f405.png">
   - AUC達 0.99
 
