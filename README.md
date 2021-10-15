@@ -11,6 +11,12 @@
 
 ## 模型成效
 - 氣胸分類模型
+  - 混淆矩陣(confusion matrix)<br>
+  <img width="365" alt="pneumo_cm" src="https://user-images.githubusercontent.com/44295049/137433836-16b13848-d1fa-4a44-9b24-da1bd74b604f.png">
+
+  - AUC達 0.98
+  <img width="349" alt="pneumo_auc" src="https://user-images.githubusercontent.com/44295049/137433852-57f7eee2-061c-4209-a102-075e06daa14d.png">
+
 - 胸管分類模型(測試資料集:288張胸腔x光影像)
   - 混淆矩陣(confusion matrix)<br>
   <img width="388" alt="tube_confusion" src="https://user-images.githubusercontent.com/44295049/137432791-d4fb767e-42cb-4ee9-a46f-344cf6b1f405.png">
