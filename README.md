@@ -27,7 +27,7 @@
 
 ## 部署
 使用Flask 開發Web API。參考call_api_demo.ipynb.
-- 輸入: RBG影像encode為base64 string，並以POST {"img_str": img_str} 傳入url: http://127.0.0.1:8080/predict.
+- 輸入: RBG影像encode為base64 string，並以POST {"img_str": img_str} 傳入url: http://127.0.0.1:8080/predict
 - 輸出: response json檔案，格式為 {"tube": {"pred": 0.99, "mask": img_base64_str}, "pneumo":{"pred": 0.99, "mask": img_base64_str}}
 
 <img width="218" alt="pneumo_pred" src="https://user-images.githubusercontent.com/44295049/137435115-cac41404-863a-4b96-b4ed-2ed1d1190106.png">
