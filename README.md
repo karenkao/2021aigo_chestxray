@@ -26,6 +26,10 @@
   <img width="338" alt="tube_auc" src="https://user-images.githubusercontent.com/44295049/137433302-59e3c93a-3aec-43ee-93ff-503778558e35.png">
 
 ## 部署
-使用Flask 開發Web API。
-- 輸入
-- 輸出
+使用Flask 開發Web API。參考call_api_demo.ipynb.
+- 輸入: RBG影像encode為base64 string，並以POST {"img_str": img_str} 傳入url: http://127.0.0.1:8080/predict.
+- 輸出: response json檔案，格式為 {"tube": {"pred": 0.99, "mask": img_base64_str}, "pneumo":{"pred": 0.99, "mask": img_base64_str}}
+
+<img width="218" alt="pneumo_pred" src="https://user-images.githubusercontent.com/44295049/137435115-cac41404-863a-4b96-b4ed-2ed1d1190106.png">
+<img width="211" alt="tube_pred" src="https://user-images.githubusercontent.com/44295049/137435116-11167051-11a0-4531-93df-cdd6d7d75462.png">
+
