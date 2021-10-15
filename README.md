@@ -10,7 +10,7 @@
 - 可視化模型：使用Grad-CAM，將氣胸及胸管位置可視化於xray影像上。
 
 ## 模型成效
-- 氣胸分類模型
+- 氣胸分類模型(測試資料集:1175張胸腔x光影像)
   - 混淆矩陣(confusion matrix)<br>
   <img width="365" alt="pneumo_cm" src="https://user-images.githubusercontent.com/44295049/137433836-16b13848-d1fa-4a44-9b24-da1bd74b604f.png">
 
