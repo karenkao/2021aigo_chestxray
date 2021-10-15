@@ -16,6 +16,8 @@
   <img width="388" alt="tube_confusion" src="https://user-images.githubusercontent.com/44295049/137432791-d4fb767e-42cb-4ee9-a46f-344cf6b1f405.png">
   
   - AUC達 0.99
+  
+  <img width="338" alt="tube_auc" src="https://user-images.githubusercontent.com/44295049/137433302-59e3c93a-3aec-43ee-93ff-503778558e35.png">
 
 ## 部署
 使用Flask 開發Web API。
