@@ -12,6 +12,9 @@
 ## 模型成效
 - 氣胸分類模型
 - 胸管分類模型
+  - 混淆矩陣(confusion matrix)
+  ![Uploading tube_confusion.png…]()
+  - AUC 達0.99
 
 ## 部署
 使用Flask 開發Web API。
